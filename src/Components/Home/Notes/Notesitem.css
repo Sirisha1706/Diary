@@ -1,0 +1,33 @@
+.notes-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: #3f3d3d;
+  }
+  .notes-item h1 {
+    color: #faf4f4;
+    font-size: 3rem;
+    flex: 1;
+    margin: 0 1rem;
+    text-transform: uppercase;
+  }
+  .notes-item p {
+    color:azure;
+    padding: 20px;
+    font-size: 15px;
+  }
+  
+  @media (min-width: 580px) {
+    .notes-item__notes {
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      flex: 1;
+    }
+  
+    .notes-item__notes h1 {
+      font-size: 1.25rem;
+    }
+  }
