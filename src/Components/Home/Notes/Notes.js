@@ -13,8 +13,8 @@ const Notes = props =>{
     const filteredNotes = props.items.sort((a,b) => (b.date-a.date));
     return(
         <Card className='notes'>
-            <Notesfilter selected={filter} 
-        onChangeFilter={filterChangeHandler}/>
+            {/* <Notesfilter selected={filter} 
+        onChangeFilter={filterChangeHandler}/> */}
             <Noteslist items={filteredNotes}/>
         </Card>
     );
